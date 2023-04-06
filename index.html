@@ -13,53 +13,8 @@
   <meta property="og:locale" content="en_US">
   <link rel="canonical" href="https://ip.ctw.re/">
   <link rel="stylesheet" href="css/pico.min.css">
+  <link rel="stylesheet" href="css/index.css">
   <script src="js/modal.js"></script>
-  <style>
-    h1, h4 { margin: 0; }
-    h4 { display: inline; }
-    [aria-busy=true] { text-align: start !important; }
-    .copy-button {
-      display: none;
-    }
-    .ip-button {
-      padding: 10px;
-      border-radius: 5px;
-    }
-    .ip-container {
-      position: relative;
-    }
-    .log-button {
-      position: absolute;
-      right: 25px;
-      top: 20px;
-      padding-top: 5px;
-    }
-    .refresh-button {
-      position: absolute;
-      right: 70px;
-      top: 20px;
-      padding-top: 5px;
-    }
-    .log-table-container {
-      overflow: auto;
-      max-height: 400px;
-    }
-    .log-table {
-      white-space: nowrap;
-    }
-    #log-modal > article {
-      width: 700px;
-    }
-    @media only screen and (max-width: 420px) {
-      .refresh-button {
-        right: 25px;
-      }
-      .log-button {
-        top: 60px;
-        right: 25px;
-      }
-    }
-  </style>
 </head>
 <body>
   <dialog id="log-modal">
